@@ -1,1 +1,2 @@
-## Code for bank-aggregator tutorial from : [Article on Medium]('')
+## Code for bank-aggregator
+### [Create your Bank account aggregator in 60 minutes with Cloud functions & Puppeteer]('')
