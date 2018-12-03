@@ -1,0 +1,16 @@
+{
+  "name": "bank-aggregator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy:banc-sabadell" : "npx gcloud functions deploy bsAggregator --runtime nodejs8 --trigger-http --memory 2048",
+    "deploy:banc-wizink" :  "npx gcloud functions deploy wzAggregator --runtime nodejs8 --trigger-http --memory 2048"
+  },
+  "author": "romulocintra",
+  "license": "MIT"
+}
